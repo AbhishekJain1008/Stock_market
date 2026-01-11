@@ -1,0 +1,19 @@
+
+.getElementsByClassName() -> returns the collection HTMLCollection -> in the form of the array
+
+and the 
+
+querySelector() -> return the one Element at a time.
+
+
+👉 If you want only ONE element → use:
+
+getElementById()
+
+querySelector()
+
+👉 If you want MANY elements → use:
+
+getElementsByClassName()
+
+querySelectorAll()
