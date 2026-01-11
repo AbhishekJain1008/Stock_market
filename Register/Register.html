@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./Register.css" />
+  </head>
+  <body>
+    <div class="registerdiv">
+      <form class="registerForm">
+        <h1>REGISTER</h1>
+
+        <div class="RegisterFormField">
+          <input id="regusername" type="text" placeholder="USERNAME" required />
+          <span class="icon">👤</span>
+        </div>
+
+        <div class="RegisterFormField">
+          <input id="regemail" type="text" placeholder="EMAIL" required />
+          <span class="icon">📧</span>
+        </div>
+
+        <div class="RegisterFormField">
+          <input
+            id="regpassword"
+            type="password"
+            placeholder="PASSWORD"
+            required
+          />
+          <span class="icon">🔒</span>
+        </div>
+
+        <button type="submit" class="registerBtn">REGISTER</button>
+
+        <p class="loginText">
+          Already have an account?<br />
+          <a href="../Login/index.html">LOGIN HERE</a>
+        </p>
+      </form>
+
+      <script src="Register.js"></script>
+    </div>
+  </body>
+</html>
