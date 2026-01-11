@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* add background image here */
+body {
+  height: 100vh;
+  background: url("../images/stock.avif") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logindiv {
+  position: relative;
+  z-index: 1;
+}
+
+
+.loginForm {
+  width: 420px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(151, 173, 173, 0.7);
+  text-align: center;
+  color: white;
+  background: rgba(48, 54, 89, 0.141);
+}
+
+.loginForm:hover {
+    transform: scale(1.02,1.02);
+    box-shadow: 2px 0 40px rgba(125, 155, 155, 0.5);
+}
+
+
+.loginForm h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* div inside the form */
+.LoginFormField {
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+
+.LoginFormField input {
+  width: 100%;
+  padding: 14px 45px 14px 15px;
+  border-radius: 10px;
+  border: 3px;
+  outline: none;
+  font-size: 16px;
+  background: rgba(255,255,255,0.9);
+
+}
+
+.LoginFormField .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.LoginFormForgotPassword p a {
+   margin-left: 170px;
+   font-weight: bolder;
+   color: rgb(219, 217, 222);
+  
+}
+
+
+.loginBtn {
+  width: 120px;
+  height: 60px;
+  border-radius: 40px;
+  margin: 25px auto 20px;
+
+  background: transparent;
+  border: 2px solid rgb(136, 160, 160);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginBtn:hover {
+  background: rgb(9, 182, 148);
+  color: black;
+  box-shadow: 0 0 20px #3ff;
+}
+
+/* footer text */
+.registerText a {
+  color: #3ff;
+  text-decoration: none;
+}
+
+.registerText a:hover {
+    font-weight: bolder;
+}

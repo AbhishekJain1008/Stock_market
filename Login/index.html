@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="logindiv">
+      <form class="loginForm">
+        <h1>LOGIN</h1>
+
+        <div class="LoginFormField">
+          <input
+            id="loginUsername"
+            type="text"
+            placeholder="USERNAME"
+            required
+          />
+          <span class="icon">👤</span>
+        </div>
+
+        <div class="LoginFormField">
+          <input
+            id="loginPassword"
+            type="password"
+            placeholder="PASSWORD"
+            required
+          />
+          <span class="icon">🔒</span>
+        </div>
+
+        <div class="LoginFormForgotPassword">
+          <p><a href="forgotPage.html">Forgot password?</a></p>
+        </div>
+
+        <button type="submit" class="loginBtn">LOGIN</button>
+
+        <p class="registerText">
+          Don't have an account?<br />
+          <a href="../Register/Register.html">REGISTER HERE</a>
+        </p>
+      </form>
+
+      <script src="login.js"></script>
+    </div>
+  </body>
+</html>
